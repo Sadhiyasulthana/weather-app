@@ -31,8 +31,9 @@ document.getElementById("weather").innerHTML =
 
 }
 document.getElementById("city")
-.addEventListener("keypress", function(event){
+.addEventListener("keydown", function(event){
 if(event.key === "Enter"){
 getWeather();
 }
 });
+
