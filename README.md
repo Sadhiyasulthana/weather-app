@@ -1,2 +1,14 @@
-# weather-app
-A simple weather application that shows real-time weather data for any city
+# Weather App
+
+A simple weather application that shows real-time weather data for any city.
+
+## Features
+- Search weather by city
+- Shows temperature
+- Shows weather condition
+
+## Tech Stack
+HTML
+CSS
+JavaScript
+OpenWeather API
