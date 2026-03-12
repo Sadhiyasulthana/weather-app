@@ -13,5 +13,8 @@ CSS
 JavaScript
 OpenWeather API
 
+## Screenshot
+![weather app](Screenshot.png)
+
 ## Live Demo
 https://sadhiyasulthana.github.io/weather-app/
