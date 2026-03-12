@@ -1,5 +1,9 @@
-function getWeather(){
-
+function getWeather()
+if(city === ""){
+alert("Please enter a city name");
+return;
+}  
+{
 let city = document.getElementById("city").value;
 
 let apiKey = "df17b375a34cb68094bb956b0089abbb";
@@ -36,4 +40,5 @@ if(event.key === "Enter"){
 getWeather();
 }
 });
+
 
