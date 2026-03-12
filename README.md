@@ -12,3 +12,6 @@ HTML
 CSS
 JavaScript
 OpenWeather API
+
+## Live Demo
+https://sadhiyasulthana.github.io/weather-app/
