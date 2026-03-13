@@ -1,16 +1,12 @@
-function getWeather()
-if(city === ""){
-alert("Please enter a city name");
-return;
-}  
-{
+function getWeather() {
+
 let city = document.getElementById("city").value;
 
 let apiKey = "df17b375a34cb68094bb956b0089abbb";
 
-let url = "https://api.openweathermap.org/data/2.5/weather?q=" 
-+ city + 
-"&appid=" + apiKey + 
+let url = "https://api.openweathermap.org/data/2.5/weather?q="
++ city +
+"&appid=" + apiKey +
 "&units=metric";
 
 fetch(url)
@@ -25,20 +21,19 @@ return;
 }
 
 document.getElementById("temp").innerHTML =
-"Temperature: " + data.main.temp + "°C";
+"Temperature: " + data.main.temp + " °C";
 
 document.getElementById("weather").innerHTML =
 "Weather: " + data.weather[0].main;
 
 });
 
-
 }
+
 document.getElementById("city")
-.addEventListener("keydown", function(event){
+.addEventListener("keypress", function(event){
 if(event.key === "Enter"){
 getWeather();
 }
 });
-
 
